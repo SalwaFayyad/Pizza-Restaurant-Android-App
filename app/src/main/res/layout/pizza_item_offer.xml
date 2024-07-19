@@ -1,0 +1,113 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:background="@drawable/custom_edittext">
+
+        <!-- Offer Name -->
+        <TextView
+            android:id="@+id/textView_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:text="Offer Name"
+            android:textColor="#B8B0B0"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <!-- Pizza Items -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="134dp"
+                android:layout_height="130dp"
+                app:srcCompat="@drawable/offer" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView_pizza_items"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="monospace"
+                    android:textColor="#B8B0B0"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/textView_extras"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="monospace"
+                    android:text="Extras"
+                    android:textColor="#B8B0B0"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/text_newPrice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="monospace"
+                    android:text="Total Price"
+                    android:textColor="#B8B0B0"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView_endDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="24dp"
+                    android:fontFamily="monospace"
+                    android:text="End Date"
+                    android:textColor="#B8B0B0"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Buttons Container -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!-- Order Button -->
+            <Button
+                android:id="@+id/button_order"
+                android:layout_width="192dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="#3A3737"
+                android:fontFamily="monospace"
+                android:text="Order"
+                android:textColor="#B8B0B0"
+                android:textSize="20sp" />
+
+            <!-- Add to Cart Button -->
+            <ImageButton
+                android:id="@+id/button_add_to_cart"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/baseline_add_shopping_cart_24" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

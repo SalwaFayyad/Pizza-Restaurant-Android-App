@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragment_containerp"
+    tools:context=".ui.CustomerFragments.Pizza_menuFragment">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="529dp"
+        android:layout_height="866dp"
+        android:src="@drawable/homecustomerpage"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_pizza_menu"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/horizontalScrollView"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="438dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toTopOf="@id/recycler_pizza_menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.888"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/search_viewid"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="12dp"
+                android:layout_height="15dp"
+                tools:layout_editor_absoluteX="381dp"
+                tools:layout_editor_absoluteY="621dp" />
+
+            <Button
+                android:id="@+id/button_all"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/red"
+                android:text="All"
+                android:textAllCaps="false"
+                android:textColor="#E1E3E5" />
+
+            <Space
+                android:layout_width="12dp"
+                android:layout_height="15dp"
+                tools:layout_editor_absoluteX="381dp"
+                tools:layout_editor_absoluteY="621dp" />
+
+            <Button
+                android:id="@+id/button_Traditional"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#E1E3E5"
+                android:text="Traditional"
+                android:textAllCaps="false"
+                android:textColor="@color/black" />
+
+            <Space
+                android:layout_width="12dp"
+                android:layout_height="15dp"
+                tools:layout_editor_absoluteX="381dp"
+                tools:layout_editor_absoluteY="621dp" />
+
+            <Button
+                android:id="@+id/button_Chicken"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#E1E3E5"
+                android:text="Chicken"
+                android:textAllCaps="false"
+                android:textColor="@color/black" />
+
+            <Space
+                android:layout_width="12dp"
+                android:layout_height="15dp"
+                tools:layout_editor_absoluteX="381dp"
+                tools:layout_editor_absoluteY="621dp" />
+            <Button
+                android:id="@+id/button_Meat"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#E1E3E5"
+                android:text="Meat"
+                android:textAllCaps="false"
+                android:textColor="@color/black" />
+            <Space
+                android:layout_width="12dp"
+                android:layout_height="15dp"
+                tools:layout_editor_absoluteX="381dp"
+                tools:layout_editor_absoluteY="621dp" />
+            <Button
+                android:id="@+id/button_Beef"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#E1E3E5"
+                android:text="Beef"
+                android:textAllCaps="false"
+                android:textColor="@color/black" />
+
+            <Space
+                android:layout_width="12dp"
+                android:layout_height="15dp"
+                tools:layout_editor_absoluteX="381dp"
+                tools:layout_editor_absoluteY="621dp" />
+
+            <Button
+                android:id="@+id/button_Regional"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#E1E3E5"
+                android:text="Regional"
+                android:textAllCaps="false"
+                android:textColor="@color/black" />
+
+            <Space
+                android:layout_width="12dp"
+                android:layout_height="15dp"
+                tools:layout_editor_absoluteX="381dp"
+                tools:layout_editor_absoluteY="621dp" />
+
+            <Button
+                android:id="@+id/button_Seafood"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#E1E3E5"
+                android:text="Seafood"
+                android:textAllCaps="false"
+                android:textColor="@color/black" />
+
+            <Space
+                android:layout_width="12dp"
+                android:layout_height="15dp"
+                tools:layout_editor_absoluteX="381dp"
+                tools:layout_editor_absoluteY="621dp" />
+
+            <Button
+                android:id="@+id/button_Vegetarian"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#E1E3E5"
+                android:text="Vegetarian"
+                android:textAllCaps="false"
+                android:textColor="@color/black" />
+            <Space
+                android:layout_width="12dp"
+                android:layout_height="15dp"
+                tools:layout_editor_absoluteX="381dp"
+                tools:layout_editor_absoluteY="621dp" />
+
+            <Button
+                android:id="@+id/button_Specialty"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#E1E3E5"
+                android:text="Specialty"
+                android:textAllCaps="false"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+
+    <SearchView
+        android:id="@+id/search_viewid"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="#E1E3E5"
+        android:backgroundTint="#E1E3E5"
+        android:iconifiedByDefault="false"
+        android:queryHint="Search Pizza Name..."
+        android:scrollbarThumbHorizontal="@color/lightgrey"
+        android:scrollbarThumbVertical="@color/lightgrey"
+        android:searchIcon="@drawable/baseline_search_24"
+        android:textColorHint="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/cart"
+        android:layout_width="73dp"
+        android:layout_height="56dp"
+        android:layout_gravity="bottom|end"
+        android:src="@drawable/baseline_shopping_cart_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.954"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+</androidx.constraintlayout.widget.ConstraintLayout>

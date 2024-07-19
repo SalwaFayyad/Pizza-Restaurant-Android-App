@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Pizza Type:"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spinner_pizza_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/text_view_orders_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Number of Orders: 0"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/text_view_total_income"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Income: $0.00"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/text_view_total_income_all_types"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Income (All Types): $0.00"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp"/>
+
+</LinearLayout>

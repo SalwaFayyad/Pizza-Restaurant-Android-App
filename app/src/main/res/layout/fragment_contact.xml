@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.CustomerFragments.contactFragment">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="529dp"
+        android:layout_height="866dp"
+        android:src="@drawable/homecustomerpage"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/call_button"
+        android:layout_width="271dp"
+        android:layout_height="62dp"
+        android:drawableLeft="@android:drawable/ic_menu_call"
+        android:padding="16dp"
+        android:text="Call Us"
+        android:textSize="19sp"
+        android:backgroundTint="#3A3737"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.294" />
+
+    <Button
+        android:id="@+id/map_button"
+        android:layout_width="271dp"
+        android:layout_height="62dp"
+        android:drawableLeft="@android:drawable/ic_dialog_map"
+        android:padding="16dp"
+        android:text="Google Map"
+        android:textSize="19sp"
+        android:backgroundTint="#3A3737"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.483" />
+
+    <Button
+        android:id="@+id/gmail_button"
+        android:layout_width="271dp"
+        android:layout_height="62dp"
+        android:drawableLeft="@android:drawable/ic_dialog_email"
+        android:padding="16dp"
+        android:text="Send Email"
+        android:textSize="19sp"
+        android:backgroundTint="#3A3737"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.671" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

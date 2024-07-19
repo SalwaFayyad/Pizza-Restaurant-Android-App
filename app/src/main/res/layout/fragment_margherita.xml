@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_containerp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.pizzas_fragments.pizzaTypeFragment">
+
+    <!-- Background ImageView -->
+    <ImageView
+        android:id="@+id/background_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/homecustomerpage" />
+
+    <!-- Overlay content -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@android:color/transparent">
+
+        <ImageView
+            android:id="@+id/image_pizza"
+            android:layout_width="324dp"
+            android:layout_height="257dp"
+            android:layout_margin="16dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/margarita" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp"
+            android:gravity="center_vertical">
+
+            <!-- TextView for the pizza name -->
+            <TextView
+                android:id="@+id/text_pizza_name"
+                android:layout_width="305dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Margherita Pizza"
+                android:textAppearance="?attr/textAppearanceHeadline6"
+                android:textColor="@android:color/white" />
+
+            <!-- ImageButton for favorite button -->
+            <ImageButton
+                android:id="@+id/imgFav"
+                android:layout_width="72dp"
+                android:layout_height="50dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:backgroundTint="#E7E2E2"
+                android:contentDescription="@string/add_to_favorites"
+                android:src="@drawable/baseline_favorite_24" />
+        </LinearLayout>
+
+        <!-- TextView for the pizza description -->
+        <TextView
+            android:id="@+id/text_pizza_description"
+            android:layout_width="369dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:text="A classic delight with 100% real mozzarella cheese, juicy tomatoes, and fresh basil leaves."
+            android:textAppearance="?attr/textAppearanceBody1"
+            android:textColor="@android:color/white" />
+
+        <!-- RadioGroup for pizza size selection -->
+        <RadioGroup
+            android:id="@+id/radioGroup_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center_horizontal">
+
+            <RadioButton
+                android:id="@+id/radioButton_small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Small"
+                android:textColor="@android:color/white" />
+
+            <RadioButton
+                android:id="@+id/radioButton_medium"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Medium"
+                android:textColor="@android:color/white" />
+
+            <RadioButton
+                android:id="@+id/radioButton_large"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Large"
+                android:textColor="@android:color/white" />
+        </RadioGroup>
+
+        <!-- TextView for displaying the price -->
+        <TextView
+            android:id="@+id/text_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Price: $0.00"
+            android:textAppearance="?attr/textAppearanceHeadline6"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center_horizontal" />
+
+        <!-- Quantity selector -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="16dp">
+
+            <ImageButton
+                android:id="@+id/button_decrement"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:src="@drawable/subtract" />
+
+            <TextView
+                android:id="@+id/text_quantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:textAppearance="?attr/textAppearanceHeadline6"
+                android:textColor="@android:color/white"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp" />
+
+            <ImageButton
+                android:id="@+id/button_increment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:src="@drawable/add"
+                android:textAlignment="center" />
+        </LinearLayout>
+
+        <!-- Button to order -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/addPizzaOrder"
+                android:layout_width="73dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"
+                android:backgroundTint="#3A3737"
+                android:drawableLeft="@drawable/baseline_add_shopping_cart_24" />
+
+            <Button
+                android:id="@+id/button_order"
+                android:layout_width="137dp"
+                android:layout_height="48dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"
+                android:backgroundTint="#3A3737"
+                android:text="Order Now"
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>

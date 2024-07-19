@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_ic"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_pizza_menu"
+            android:icon="@drawable/baseline_restaurant_menu_24"
+            android:title="@string/menu_pizza" />
+        <item
+            android:id="@+id/nav_cutomer_orders"
+            android:icon="@drawable/pizza_deliver"
+            android:title="Your Orders" />
+        <item
+            android:id="@+id/nav_favorite"
+            android:icon="@drawable/baseline_favorite_24"
+            android:title="Favorite" />
+        <item
+            android:id="@+id/nav_customeroffers"
+            android:icon="@drawable/baseline_discount_24"
+            android:title="Special Offers" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/baseline_person_24"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_contacts"
+            android:icon="@drawable/pizza_call"
+            android:title="@string/menu_contacts" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/baseline_logout_24"
+            android:title="Log Out" />
+
+
+    </group>
+</menu>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation2"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.pizza_appproject.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.pizza_appproject.ui.UserProfile.UserProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_user_profile" />
+    <fragment
+        android:id="@+id/nav_AddAdmin"
+        android:name="com.example.pizza_appproject.ui.AdminFragments.AddAdmin"
+        android:label="Add Admin"
+        tools:layout="@layout/fragment_add_admin" />
+
+    <fragment
+        android:id="@+id/nav_AddSpecialOffer"
+        android:name="com.example.pizza_appproject.ui.AdminFragments.AddSpecialOffer"
+        android:label="Add Special Offer"
+        tools:layout="@layout/fragment_add_special_offer" />
+
+    <fragment
+        android:id="@+id/nav_vieworders"
+        android:name="com.example.pizza_appproject.ui.AdminFragments.AdminViewOrders"
+        android:label="View Orders"
+        tools:layout="@layout/fragment_admin_view_orders" />
+
+</navigation>

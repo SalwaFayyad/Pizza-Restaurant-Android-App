@@ -1,0 +1,137 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fragment_containerp"
+    tools:context=".ui.AdminFragments.AddSpecialOffer">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="529dp"
+        android:layout_height="866dp"
+        android:src="@drawable/homecustomerpage"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="396dp"
+        android:layout_height="78dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.14">
+
+        <TextView
+            android:layout_width="174dp"
+            android:layout_height="43dp"
+            android:layout_weight="1"
+            android:text="Pizza Type"
+            android:textColor="#E1E3E5"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/pizzatypespinner"
+            android:layout_width="235dp"
+            android:layout_height="53dp"
+            android:layout_weight="2"
+            android:background="#BC1212"
+            android:popupBackground="@android:color/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="396dp"
+        android:layout_height="78dp"
+        android:layout_weight="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.281">
+
+        <TextView
+            android:layout_width="174dp"
+            android:layout_height="43dp"
+            android:layout_weight="1"
+            android:text="Pizza Size"
+            android:textColor="#E1E3E5"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/pizzasizespinner"
+            android:layout_width="235dp"
+            android:layout_height="53dp"
+            android:layout_weight="2"
+            android:background="#BC1212"
+            android:popupBackground="@android:color/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="396dp"
+        android:layout_height="78dp"
+        android:layout_weight="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.418">
+
+        <TextView
+            android:layout_width="174dp"
+            android:layout_height="43dp"
+            android:layout_weight="1"
+            android:text="Quantity"
+            android:textColor="#E1E3E5"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/quantity_edit_text"
+            android:layout_width="235dp"
+            android:layout_height="71dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Quantity"
+            android:inputType="number"
+            android:textColor="#BEC1C3"
+            android:textColorHint="#A39494"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/AddSpecialOfferItem_button"
+        android:layout_width="313dp"
+        android:layout_height="64dp"
+        android:layout_weight="1"
+        android:backgroundTint="#3A3737"
+        android:text="Add Special Offer Item"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6" />
+
+    <Button
+        android:id="@+id/AddSpecialOffer_button"
+        android:layout_width="313dp"
+        android:layout_height="64dp"
+        android:layout_weight="1"
+        android:backgroundTint="#3A3737"
+        android:text="Submit Special Offer"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.75" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/red">
+
+    <TextView
+        android:id="@+id/text_order_id"
+        android:layout_width="112dp"
+        android:layout_height="47dp"
+        android:text="order"
+        android:textColor="@color/white"
+        android:textColorHint="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <!-- Customer Name -->
+    <TextView
+        android:id="@+id/text_customer_name"
+        android:layout_width="228dp"
+        android:layout_height="40dp"
+        android:text="name"
+        android:textColor="@color/white"
+        android:textColorHint="#FFFFFF"
+        android:textSize="16sp" />
+    <!-- Order Details -->
+    <TextView
+        android:id="@+id/text_order_details"
+        android:layout_width="365dp"
+        android:layout_height="119dp"
+        android:text="detailes"
+        android:textColor="@color/white"
+        android:textColorHint="#FFFFFF"
+        android:textSize="16sp" />
+
+</LinearLayout>
+

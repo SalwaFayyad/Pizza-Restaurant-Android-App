@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Pizza_AppProject</string>
+    <string name="title_activity_customer_home_nav">Customer_Home_nav</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_pizza">Pizza Menu</string>
+    <string name="menu_contacts">Contact Us</string>
+    <string name="profile_user">Profile</string>
+    <string name="change_profile_image_description">Change profile image</string>
+    <string name="background_image_desc">Background image of a Margherita pizza</string>
+    <string name="add_to_favorites">Add to favorites</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_admin_home_nav">AdminHome_nav</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+
+</resources>

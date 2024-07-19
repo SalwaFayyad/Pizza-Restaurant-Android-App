@@ -1,0 +1,167 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Offer Details (TextView) -->
+        <TextView
+            android:id="@+id/offer_details_text_view"
+            android:layout_width="366dp"
+            android:layout_height="142dp"
+            android:fontFamily="monospace"
+            android:paddingBottom="8dp"
+            android:text="Offer Details:"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <!-- Offer Name -->
+        <EditText
+            android:id="@+id/offer_name_edit_text"
+            android:layout_width="370dp"
+            android:layout_height="56dp"
+            android:fontFamily="monospace"
+            android:hint="Enter Offer Name"
+            android:inputType="text"
+            android:maxLines="1"
+            android:paddingBottom="8dp"
+            android:textSize="16sp" />
+
+        <!-- Extras -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:paddingBottom="8dp"
+            android:text="Extras:"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/extras_potatoes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:text="Potatoes" />
+
+        <CheckBox
+            android:id="@+id/extras_cola"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:text="Cola" />
+
+        <CheckBox
+            android:id="@+id/extras_extra_cheese"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:text="Extra Cheese" />
+
+        <!-- Total Price -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp">
+
+            <TextView
+                android:layout_width="41dp"
+                android:layout_height="59dp"
+                android:layout_weight="1"
+                android:fontFamily="monospace"
+                android:text="Total Price:"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/total_price_text"
+                android:layout_width="0dp"
+                android:layout_height="61dp"
+                android:layout_weight="2"
+                android:fontFamily="monospace"
+                android:hint="Enter price"
+                android:inputType="numberDecimal" />
+        </LinearLayout>
+
+        <!-- Start Date -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="8dp">
+
+            <TextView
+                android:layout_width="23dp"
+                android:layout_height="62dp"
+                android:layout_weight="1"
+                android:fontFamily="monospace"
+                android:text="Start Date:"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/startdatebt"
+                style="?android:spinnerStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:backgroundTint="#959090"
+                android:text="Start Date"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textSize="16sp"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+        <!-- End Date -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="8dp">
+
+            <TextView
+                android:layout_width="21dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:fontFamily="monospace"
+                android:text="End Date:"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/enddatebt"
+                style="?android:spinnerStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:backgroundTint="#959090"
+                android:text="End Date"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <!-- Submit Button -->
+        <Button
+            android:id="@+id/final_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#BF1919"
+            android:fontFamily="monospace"
+            android:text="Submit Special Offer"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
