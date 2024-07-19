@@ -25,9 +25,10 @@ This Android app is designed for a pizza restaurant. It allows users to view the
     <img src="https://github.com/user-attachments/assets/4663933e-2e1b-49cd-9100-d20121949693" alt="Home Layout" style="width: 24%;"/>
     <img src="https://github.com/user-attachments/assets/64fb251f-1980-4f4f-8e2f-4b12ce4b1234" alt="Pizza Menu" style="width: 24%;"/>
     <img src="https://github.com/user-attachments/assets/2d5f4305-b8a2-4f99-a6fc-aacd46269f8e" alt="Order Details" style="width: 24%;"/>
+<div style="display: flex; justify-content: space-around;">
     <img src="https://github.com/user-attachments/assets/18aefbc8-c663-4d41-88b9-77e4436305ba" alt="Special Offers" style="width: 24%;"/>
-    <img src="(https://github.com/user-attachments/assets/d13419df-c312-4518-8b79-a5eb3a538460)" alt="Special Offers" style="width: 24%;"/>
-    <img src="(https://github.com/user-attachments/assets/8046f2f8-1d44-4c73-b0a8-4bf2e52c1cc2)" alt="Special Offers" style="width: 24%;"/>
+    <img src="(https://github.com/user-attachments/assets/545107aa-63cf-452a-9157-316e931ca044)" alt="Special Offers" style="width: 24%;"/>
+    <img src="(https://github.com/user-attachments/assets/545107aa-63cf-452a-9157-316e931ca044)" alt="Special Offers" style="width: 24%;"/>
 
     
 
