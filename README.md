@@ -1,17 +1,19 @@
-How to Use This Project
-Clone the Repository
+# Pizza Restaurant Android App
 
-Copy the repository to your local machine with:
-bash
-Copy code
-git clone https://github.com/SalwaFayyad/Pizza-Restaurant-Android-App.git
-Open the Project
+## Description
 
-Launch Android Studio.
-Select Open an Existing Project and choose the cloned directory.
-Build and Run
+This Android app is designed for a pizza restaurant. It allows users to view the pizza menu, place orders, view their favorites, and more. Admins can manage orders and special offers.
 
-Click the Run button in Android Studio to build and run the app on an emulator or a connected device.
-Explore the Code
+## Getting Started
 
-Navigate through the app/ directory to review the app’s code and resources.
+### Prerequisites
+
+- Android Studio
+- Java Development Kit (JDK)
+
+### Installation
+
+1. **Clone the Repository**
+
+   ```bash
+   git clone https://github.com/SalwaFayyad/Pizza-Restaurant-Android-App.git
