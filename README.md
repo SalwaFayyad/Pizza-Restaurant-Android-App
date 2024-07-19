@@ -1,4 +1,4 @@
-![Screenshot_20240627_203141](https://github.com/user-attachments/assets/1655f912-295d-4d64-9449-81e674560d1e)![Screenshot_20240629_174027](https://github.com/user-attachments/assets/9991e20b-55c9-4621-a45c-7d050fd7f3f4)# Pizza Restaurant Android App
+# Pizza Restaurant Android App
 
 ## Description
 
