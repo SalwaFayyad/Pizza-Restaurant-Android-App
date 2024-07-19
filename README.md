@@ -17,7 +17,7 @@ This Android app is designed for a pizza restaurant. It allows users to view the
    ```bash
    git clone https://github.com/SalwaFayyad/Pizza-Restaurant-Android-App.git
 2. **Open the Project**
-*Launch Android Studio.*
-*Select Open an Existing Project and choose the cloned directory.*
+- Launch Android Studio.
+- Select Open an Existing Project and choose the cloned directory.
 4. **Build and Run**
-*Click the Run button in Android Studio to build and run the app on an emulator or a connected device.*
+- Click the Run button in Android Studio to build and run the app on an emulator or a connected device.
