@@ -30,3 +30,7 @@ This Android app is designed for a pizza restaurant. It allows users to view the
     <img src="https://github.com/user-attachments/assets/795f1e53-4e13-4919-8ac5-cbb51cc29201" alt="Special Offers1" style="width: 24%;"/>
     <img src="https://github.com/user-attachments/assets/590c2524-d380-4b77-8294-984e5bf791d1" alt="Special Offers2" style="width: 24%;"/>
 
+
+https://github.com/user-attachments/assets/7866e3c4-038f-491c-a139-d35551aefed9
+
+
