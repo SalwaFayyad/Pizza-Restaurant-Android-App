@@ -21,6 +21,10 @@ This Android app is designed for a pizza restaurant. It allows users to view the
 - Select Open an Existing Project and choose the cloned directory.
 3. **Build and Run**
 - Click the Run button in Android Studio to build and run the app on an emulator or a connected device.
+- ## Contributors
+
+- [Salwa Fayyad](https://github.com/SalwaFayyad)
+- [Katya Kobari](https://github.com/KatyaKobari)
 <div style="display: flex; justify-content: space-around;">
     <img src="https://github.com/user-attachments/assets/4663933e-2e1b-49cd-9100-d20121949693" alt="Home Layout" style="width: 24%;"/>
     <img src="https://github.com/user-attachments/assets/64fb251f-1980-4f4f-8e2f-4b12ce4b1234" alt="Pizza Menu" style="width: 24%;"/>
